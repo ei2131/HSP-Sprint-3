@@ -1,0 +1,14 @@
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\bin\Debug\zahnrad.exe
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\bin\Debug\zahnrad.pdb
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.csprojAssemblyReference.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\MainWindow.g.cs
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\App.g.cs
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad_MarkupCompile.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\MainWindow.baml
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.g.resources
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.Properties.Resources.resources
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.exe
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\zahnrad\obj\Debug\zahnrad.pdb

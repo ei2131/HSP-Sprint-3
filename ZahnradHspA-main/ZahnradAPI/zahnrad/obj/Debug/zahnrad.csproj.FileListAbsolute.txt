@@ -1,0 +1,42 @@
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\bin\Debug\zahnrad.exe
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\bin\Debug\zahnrad.pdb
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.csprojAssemblyReference.cache
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\MainWindow.g.cs
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\App.g.cs
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad_MarkupCompile.cache
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\MainWindow.baml
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.g.resources
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\Gearwheelcalculator.Properties.Resources.resources
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.exe
+C:\Users\jan-dieter siemen\Desktop\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.pdb
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\bin\Debug\zahnrad.exe
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\bin\Debug\zahnrad.pdb
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.csprojAssemblyReference.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\MainWindow.g.cs
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\App.g.cs
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad_MarkupCompile.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\MainWindow.baml
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.g.resources
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\Gearwheelcalculator.Properties.Resources.resources
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.exe
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradGUI\zahnrad\obj\Debug\zahnrad.pdb
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\bin\Debug\zahnrad.exe
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\bin\Debug\zahnrad.pdb
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csprojAssemblyReference.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\MainWindow.g.cs
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\App.g.cs
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\MainWindow.baml
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.g.resources
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\Gearwheelcalculator.Properties.Resources.resources
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.exe
+C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.pdb
