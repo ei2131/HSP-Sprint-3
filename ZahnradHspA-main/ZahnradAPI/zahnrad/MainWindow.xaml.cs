@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows;
+using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -128,5 +129,224 @@ namespace zahnrad
         {
             // Übertragung der Parameter an Catia
         }
+        //Catia Part erstellen
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+
+        {
+
+            CatiaControl();
+
+        }
+
+
+
+        // // // // // // // // // // // // // // // //
+
+
+
+        //CatiaControl
+
+
+
+
+
+        public void CatiaControl()
+
+        {
+
+            try
+
+            {
+
+
+
+                CatiaConnection cc = new CatiaConnection();
+
+
+
+                // Finde Catia Prozess
+
+                if (cc.CATIALaeuft())
+
+                {
+
+                    //Console.WriteLine("0");
+
+
+
+                    // Öffne ein neues Part
+
+                    cc.ErzeugePart();
+
+                    //Console.WriteLine("1");
+
+
+
+                    //cc.Mittelpunktbestimmmung(av)
+
+
+
+                    // Erstelle eine Skizze
+
+                    //cc.ErstelleLeereSkizze();
+
+                    //Console.WriteLine("2");
+
+
+
+                    // Generiere ein Profil
+
+                    //cc.ErzeugeProfil(20, 10);
+
+                    //Console.WriteLine("3");
+
+
+
+                    // Extrudiere Balken
+
+                    //cc.ErzeugeBalken(300);
+
+                    //Console.WriteLine("4");
+
+
+
+                    cc.Stirnzahnrad(av);
+
+
+
+                    cc.Dicke(av);
+
+                }
+
+                else
+
+                {
+
+                    Console.WriteLine("Laufende Catia Application nicht gefunden");
+
+                }
+
+            }
+
+            catch (Exception ex)
+
+            {
+
+                MessageBox.Show(ex.Message, "Exception aufgetreten");
+
+            }
+
+            Console.WriteLine("Fertig - Taste drücken.");
+
+
+
+        }
+
+
+
+        private void CB_Kopfspiel_Checked(object sender, RoutedEventArgs e)
+
+        {
+
+            TB_0167.IsEnabled = true;
+
+            TB_0167.Clear();
+
+        }
+
+
+
+        private void CB_Kopfspiel_Unchecked(object sender, RoutedEventArgs e)
+
+        {
+
+            TB_0167.IsEnabled = false;
+
+            TB_0167.Text = "0,167";
+
+        }
+
+
+
+        private void rtb_Gerad_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            tb_Winkel.IsEnabled = false;
+
+            sliderbeta.IsEnabled = false;
+
+            lb_Winkeltext.IsEnabled = false;
+
+        }
+
+
+
+        private void rtb_Schräg_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            tb_Winkel.IsEnabled = true;
+
+            sliderbeta.IsEnabled = true;
+
+            lb_Winkeltext.IsEnabled = true;
+
+        }
+
+
+
+        private void rtb_Innenzahnrad_Click(object sender, RoutedEventArgs e)
+
+        {
+
+            tb_Winkel.IsEnabled = false;
+
+            sliderbeta.IsEnabled = false;
+
+            lb_Winkeltext.IsEnabled = false;
+
+        }
+
     }
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

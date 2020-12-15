@@ -112,7 +112,7 @@ namespace Zahnrad
 
             {
 
-                Message.Show("Kein geometrisches Set gefunden! " + Environment.NewLine +
+                MessageBox.Show("Kein geometrisches Set gefunden! " + Environment.NewLine +
 
                     "Ein PART manuell erzeugen und ein darauf achten, dass Geometisches Set' aktiviert ist.",
 
