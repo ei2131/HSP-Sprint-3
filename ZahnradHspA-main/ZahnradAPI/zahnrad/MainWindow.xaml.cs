@@ -22,7 +22,7 @@ namespace zahnrad
     {
         double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndkr, nKpfkr, mStirn, ßWinkel;
 
-      
+        
 
         public MainWindow()
         {
@@ -37,42 +37,42 @@ namespace zahnrad
 
             try
             {    // Eingabe von Werten a - d in TextBoxen
-                aModul = Convert.ToDouble(tb_aModul.Text.ToString());                          
+                aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
                 cTeilkr = Convert.ToDouble(tb_cTeilkr.Text.ToString());
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
             }
             catch
             {   // Konsole ploppt auf falls Buchstaben oder negative Werte eingegeben werden.
-                MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");       
+                MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");
                 return;
             }
-                // Bedingungen an die Eingabewerte
+            // Bedingungen an die Eingabewerte
             if (aModul < 0 || bZaehne < 5 || bZaehne > 100 || cTeilkr < 0 || cTeilkr != aModul * bZaehne || dBreite < 0)
             {
                 MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");
                 return;
             }
-            
-            
 
-            
 
-            if(radio_Geradzahnrad.IsChecked == true)
+
+
+
+            if (radio_Geradzahnrad.IsChecked == true)
 
             {
                 // Defienierung der Ausgabewerte
-                eKopf = 0.167 * aModul;                                                                          
-                hPar = 2 * aModul + eKopf;                                                     
-                fFußhoehe = aModul + eKopf;                                                         
-                gKpfhoehe = aModul;                                                             
+                eKopf = 0.167 * aModul;
+                hPar = 2 * aModul + eKopf;
+                fFußhoehe = aModul + eKopf;
+                gKpfhoehe = aModul;
                 tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
 
                 iTeil = Math.PI * aModul;
                 tb_iTeil.Text = iTeil.ToString();
-                jFußkr = cTeilkr - 2 * (aModul + eKopf);                                               
+                jFußkr = cTeilkr - 2 * (aModul + eKopf);
                 nKpfkr = aModul * (bZaehne + 2);
                 tb_jFußkr.Text = jFußkr.ToString();
                 tb_nKpfkr.Text = nKpfkr.ToString();
@@ -80,7 +80,7 @@ namespace zahnrad
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
                 tb_kGrndkr.Text = kGrndkr.ToString();
             }
-             if(radio_Innenzahnrad.IsChecked == true)
+            else if (radio_Innenzahnrad.IsChecked == true)
             {
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
@@ -88,26 +88,26 @@ namespace zahnrad
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
 
 
-                eKopf = 0.167 * aModul;                                                                        
-                hPar = 2 * aModul + eKopf;                                                     
-                fFußhoehe = aModul + eKopf;                                                         
-                gKpfhoehe = aModul;                                                              
-                tb_eKopf.Text = eKopf.ToString();                                
+                eKopf = 0.167 * aModul;
+                hPar = 2 * aModul + eKopf;
+                fFußhoehe = aModul + eKopf;
+                gKpfhoehe = aModul;
+                tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
 
                 iTeil = Math.PI * aModul;
                 tb_iTeil.Text = iTeil.ToString();
-                jFußkr = cTeilkr + 2 * (aModul + eKopf);                                               
-                nKpfkr = aModul *(bZaehne - 2);
+                jFußkr = cTeilkr + 2 * (aModul + eKopf);
+                nKpfkr = aModul * (bZaehne - 2);
                 tb_jFußkr.Text = jFußkr.ToString();
                 tb_nKpfkr.Text = nKpfkr.ToString();
 
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
-              
+
                 tb_kGrndkr.Text = kGrndkr.ToString();
             }
-            else if (Radio_Schrägverzahnt.IsChecked == true)
+            else if (radio_Schrägverzahnt.IsChecked == true)
             {
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
@@ -133,11 +133,11 @@ namespace zahnrad
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
 
                 tb_kGrndkr.Text = kGrndkr.ToString();
-                
+
                 mStirn = aModul / (Math.Cos(ßWinkel));
                 tb_mStirn.Text = mStirn.ToString();
             }
-
+        }
             private void Radio_Geradzahnrad_Checked(object sender, RoutedEventArgs e)   
             {   // JPEG Stirnzahnrad
             Uri uri = new Uri(@"geradzahnrad.jpg", UriKind.Relative);
@@ -165,14 +165,11 @@ namespace zahnrad
        
         
 
-        private void btn_Catiastarten(object sender, RoutedEventArgs e)               //Catia Part erstellen
 
-            {
-
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
             CatiaControl();
-
-            }
-
+        }
 
 
         // // // // // // // // // // // // // // // //
@@ -223,7 +220,7 @@ namespace zahnrad
 
                     // Erstelle eine Skizze
 
-                    //cc.ErstelleLeereSkizze();
+                    cc.ErstelleLeereSkizze();
 
                     //Console.WriteLine("2");
 
@@ -245,11 +242,12 @@ namespace zahnrad
 
 
 
-                    cc.Stirnzahnrad(aModul, bZaehne);
+                    cc.Stirnzahnrad(aModul, bZaehne, ßWinkel);
+                   
 
 
-
-                    cc.();
+                   
+                    cc.Dicke(dBreite);
 
                 }
 
@@ -307,11 +305,8 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = false;
+            tb_ßWinkel.IsEnabled = false;
 
-            .IsEnabled = false;
-
-            .IsEnabled = false;
 
         }
 
@@ -321,11 +316,7 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = true;
-
-            .IsEnabled = true;
-
-            .IsEnabled = true;
+           tb_ßWinkel.IsEnabled = true;
 
         }
 
@@ -335,11 +326,7 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = false;
-
-            .IsEnabled = false;
-
-            .IsEnabled = false;
+            tb_ßWinkel.IsEnabled = false;
 
         }
 

@@ -47,3 +47,10 @@ C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\
 C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
 C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.exe
 C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.pdb
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\bin\Debug\zahnrad.exe
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\bin\Debug\zahnrad.pdb
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\MainWindow.baml
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.g.resources
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\Gearwheelcalculator.Properties.Resources.resources
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
