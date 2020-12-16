@@ -54,3 +54,17 @@ C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\
 C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\Gearwheelcalculator.Properties.Resources.resources
 C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
 C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\bin\Debug\zahnrad.exe
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\bin\Debug\zahnrad.pdb
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csprojAssemblyReference.cache
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\MainWindow.g.cs
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\App.g.cs
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.cache
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\MainWindow.baml
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.g.resources
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\Gearwheelcalculator.Properties.Resources.resources
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.GenerateResource.cache
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.exe
+C:\Users\Eike\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.pdb

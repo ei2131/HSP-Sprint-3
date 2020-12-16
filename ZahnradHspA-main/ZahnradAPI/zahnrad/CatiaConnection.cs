@@ -216,9 +216,11 @@ namespace Zahnrad
 
 
 
-            //Punkte erzeugen
+            
+            
 
-            //Kleiner Kreis
+
+            
 
             double xMittelpunktaufEvol_links = Hilfskreisradius * Math.Cos(Gammarad);
 

@@ -39,8 +39,8 @@ namespace zahnrad
             {    // Eingabe von Werten a - d in TextBoxen
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
-                cTeilkr = Convert.ToDouble(tb_cTeilkr.Text.ToString());
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
+                
             }
             catch
             {   // Konsole ploppt auf falls Buchstaben oder negative Werte eingegeben werden.
@@ -48,7 +48,7 @@ namespace zahnrad
                 return;
             }
             // Bedingungen an die Eingabewerte
-            if (aModul < 0 || bZaehne < 5 || bZaehne > 100 || cTeilkr < 0 || cTeilkr != aModul * bZaehne || dBreite < 0)
+            if (aModul < 0 || bZaehne < 5 || bZaehne > 100 || cTeilkr < 0 || dBreite < 0)
             {
                 MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");
                 return;
@@ -66,6 +66,8 @@ namespace zahnrad
                 hPar = 2 * aModul + eKopf;
                 fFußhoehe = aModul + eKopf;
                 gKpfhoehe = aModul;
+                cTeilkr = aModul * bZaehne;
+                tb_cTeilkr.Text = cTeilkr.ToString();
                 tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
@@ -84,7 +86,6 @@ namespace zahnrad
             {
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
-                cTeilkr = Convert.ToDouble(tb_cTeilkr.Text.ToString());
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
 
 
@@ -92,6 +93,8 @@ namespace zahnrad
                 hPar = 2 * aModul + eKopf;
                 fFußhoehe = aModul + eKopf;
                 gKpfhoehe = aModul;
+                cTeilkr = aModul * bZaehne;
+                tb_cTeilkr.Text = cTeilkr.ToString();
                 tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
@@ -111,7 +114,6 @@ namespace zahnrad
             {
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
-                cTeilkr = Convert.ToDouble(tb_cTeilkr.Text.ToString());
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
                 ßWinkel = Convert.ToDouble(tb_ßWinkel.Text.ToString());
 
@@ -119,6 +121,8 @@ namespace zahnrad
                 hPar = 2 * aModul + eKopf;
                 fFußhoehe = aModul + eKopf;
                 gKpfhoehe = aModul;
+                cTeilkr = aModul * bZaehne;
+                tb_cTeilkr.Text = cTeilkr.ToString();
                 tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
