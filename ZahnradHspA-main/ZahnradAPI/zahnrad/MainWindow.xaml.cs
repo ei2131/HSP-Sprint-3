@@ -211,11 +211,11 @@ namespace zahnrad
 
 
 
-                    cc.Stirnzahnrad(av);
+                    cc.Geradzahnrad(Zahnrad);
 
 
 
-                    cc.Dicke(av);
+                    cc.Geradzahnraddicke(Zahnrad);
 
                 }
 
