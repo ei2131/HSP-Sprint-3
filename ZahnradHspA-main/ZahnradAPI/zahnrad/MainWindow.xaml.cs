@@ -20,16 +20,19 @@ namespace zahnrad
     /// </summary>
     public partial class MainWindow : Window
     {
+        double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrundkr, nKpfkr;
+
         public MainWindow()
         {
             InitializeComponent();
         }
-        
 
         private void Bt_calculate_Click(object sender, RoutedEventArgs e)
         {
             Double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndkr, nKpfkr;
              
+            //double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndr, nKpfkr;
+
             try
             {    // Eingabe von Werten a - d in TextBoxen
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());                          
@@ -211,11 +214,11 @@ namespace zahnrad
 
 
 
-                    cc.Zahnrad(Zahnrad);
+                    cc.Stirnzahnrad(aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrundkr, nKpfkr) ;
 
 
 
-                    cc.Geradzahnraddicke(Zahnrad);
+                    cc.();
 
                 }
 
@@ -249,9 +252,9 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = true;
+            tb_eKopf.IsEnabled = true;
 
-            .Clear();
+            tb_eKopf.Clear();
 
         }
 
@@ -261,9 +264,9 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = false;
+            tb_eKopf.IsEnabled = false;
 
-            .Text = "0,167";
+            tb_eKopf.Text = "0,167";
 
         }
 
