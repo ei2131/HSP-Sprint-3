@@ -112,7 +112,7 @@ namespace Zahnrad
 
             {
 
-                Message.Show("Kein geometrisches Set gefunden! " + Environment.NewLine +
+                MessageBox.Show("Kein geometrisches Set gefunden! " + Environment.NewLine +
 
                     "Ein PART manuell erzeugen und ein darauf achten, dass Geometisches Set' aktiviert ist.",
 
@@ -168,7 +168,7 @@ namespace Zahnrad
 
 
 
-        public void Stirnzahnrad(Außenverzahnung av)
+        public void Stirnzahnrad()
 
         {
 
@@ -186,21 +186,21 @@ namespace Zahnrad
 
             //Hilfsgrößen
 
-            double Teilkreisradius = av.d / 2;
+            double Teilkreisradius = aModul*bZaehne / 2;
 
             double Hilfskreisradius = Teilkreisradius * 0.94;
 
-            double Fußkreisradius = Teilkreisradius - (1.25 * av.m);
+            double Fußkreisradius = Teilkreisradius - (1.25 * aModul);
 
-            double Kopfkreisradius = Teilkreisradius + av.m;
+            double Kopfkreisradius = Teilkreisradius + aModul;
 
-            double Verrundungsradius = 0.35 * av.m;
+            double Verrundungsradius = 0.35 * aModul;
 
 
 
             double Alpha = 20;
 
-            double Beta = 90 / av.z;
+            double Beta = 90 / bZaehne;
 
             double Betarad = Math.PI * Beta / 180;
 
@@ -208,7 +208,7 @@ namespace Zahnrad
 
             double Gammarad = Math.PI * Gamma / 180;
 
-            double Totalangel = 360.0 / av.z;
+            double Totalangel = 360.0 / bZaehne;
 
             double Totalangelrad = Math.PI + Totalangel / 180;
 
@@ -434,13 +434,13 @@ namespace Zahnrad
 
             Angle angle1 = angularRepartition1.AngularSpacing;
 
-            angle1.Value = Convert.ToDouble(360 / Convert.ToDouble(av.z));
+            angle1.Value = Convert.ToDouble(360 / Convert.ToDouble(bZaehne));
 
             AngularRepartition angularRepartition2 = Kreismuster.AngularRepartition;
 
             IntParam intParam1 = angularRepartition2.InstancesCount;
 
-            intParam1.Value = Convert.ToInt32(av.z) + 1;
+            intParam1.Value = Convert.ToInt32(bZaehne) + 1;
 
 
 
@@ -472,7 +472,7 @@ namespace Zahnrad
 
 
 
-        public void Dicke(Außenverzahnung av)
+        public void Dicke()
 
         {
 

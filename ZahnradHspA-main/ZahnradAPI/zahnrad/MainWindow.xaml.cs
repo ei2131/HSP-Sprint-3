@@ -211,11 +211,11 @@ namespace zahnrad
 
 
 
-                    cc.Stirnzahnrad(av);
+                    cc.Geradzahnrad(Zahnrad);
 
 
 
-                    cc.Dicke(av);
+                    cc.Geradzahnraddicke(Zahnrad);
 
                 }
 
@@ -249,9 +249,9 @@ namespace zahnrad
 
         {
 
-            TB_0167.IsEnabled = true;
+            .IsEnabled = true;
 
-            TB_0167.Clear();
+            .Clear();
 
         }
 
@@ -261,9 +261,9 @@ namespace zahnrad
 
         {
 
-            TB_0167.IsEnabled = false;
+            .IsEnabled = false;
 
-            TB_0167.Text = "0,167";
+            .Text = "0,167";
 
         }
 
@@ -273,11 +273,11 @@ namespace zahnrad
 
         {
 
-            tb_Winkel.IsEnabled = false;
+            .IsEnabled = false;
 
-            sliderbeta.IsEnabled = false;
+            .IsEnabled = false;
 
-            lb_Winkeltext.IsEnabled = false;
+            .IsEnabled = false;
 
         }
 
@@ -287,11 +287,11 @@ namespace zahnrad
 
         {
 
-            tb_Winkel.IsEnabled = true;
+            .IsEnabled = true;
 
-            sliderbeta.IsEnabled = true;
+            .IsEnabled = true;
 
-            lb_Winkeltext.IsEnabled = true;
+            .IsEnabled = true;
 
         }
 
@@ -301,11 +301,11 @@ namespace zahnrad
 
         {
 
-            tb_Winkel.IsEnabled = false;
+            .IsEnabled = false;
 
-            sliderbeta.IsEnabled = false;
+            .IsEnabled = false;
 
-            lb_Winkeltext.IsEnabled = false;
+            .IsEnabled = false;
 
         }
 
