@@ -168,7 +168,9 @@ namespace Zahnrad
 
 
 
-        public void Stirnzahnrad(double aModul, double bZaehne, double dBreite, double eKopf, double hPar, double fFußhoehe, double iTeil, double jFußkr, double kGrndkr, double nKpfkr)
+        public void Stirnzahnrad(double aModul, double bZaehne,double ßWinkel)
+
+        
 
         {
 
@@ -472,10 +474,10 @@ namespace Zahnrad
 
 
 
-        public void Dicke()
+        public void Dicke(double dBreite)
 
         {
-
+            
             //3D-Modell erzeugen
 
             hsp_catiaPart.Part.InWorkObject = hsp_catiaPart.Part.MainBody;

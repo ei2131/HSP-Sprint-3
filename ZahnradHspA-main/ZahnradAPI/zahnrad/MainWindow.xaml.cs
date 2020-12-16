@@ -20,7 +20,9 @@ namespace zahnrad
     /// </summary>
     public partial class MainWindow : Window
     {
-        double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrundkr, nKpfkr;
+        double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndkr, nKpfkr, mStirn, ßWinkel;
+
+      
 
         public MainWindow()
         {
@@ -29,48 +31,48 @@ namespace zahnrad
 
         private void Bt_calculate_Click(object sender, RoutedEventArgs e)
         {
-            Double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndkr, nKpfkr;
-             
-            //double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndr, nKpfkr;
+
+
+            //double aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrndr, nKpfkr, mStirn, ßWinkel;
 
             try
             {    // Eingabe von Werten a - d in TextBoxen
-                aModul = Convert.ToDouble(tb_aModul.Text.ToString());                          
+                aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
                 cTeilkr = Convert.ToDouble(tb_cTeilkr.Text.ToString());
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
             }
             catch
             {   // Konsole ploppt auf falls Buchstaben oder negative Werte eingegeben werden.
-                MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");       
+                MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");
                 return;
             }
-                // Bedingungen an die Eingabewerte
+            // Bedingungen an die Eingabewerte
             if (aModul < 0 || bZaehne < 5 || bZaehne > 100 || cTeilkr < 0 || cTeilkr != aModul * bZaehne || dBreite < 0)
             {
                 MessageBox.Show("Bitte geben Sie nur positive und reale Werte ein");
                 return;
             }
-            
-            
 
-            
 
-            if(radio_Geradzahnrad.IsChecked == true)
+
+
+
+            if (radio_Geradzahnrad.IsChecked == true)
 
             {
                 // Defienierung der Ausgabewerte
-                eKopf = 0.167 * aModul;                                                                          
-                hPar = 2 * aModul + eKopf;                                                     
-                fFußhoehe = aModul + eKopf;                                                         
-                gKpfhoehe = aModul;                                                             
+                eKopf = 0.167 * aModul;
+                hPar = 2 * aModul + eKopf;
+                fFußhoehe = aModul + eKopf;
+                gKpfhoehe = aModul;
                 tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
 
                 iTeil = Math.PI * aModul;
                 tb_iTeil.Text = iTeil.ToString();
-                jFußkr = cTeilkr - 2 * (aModul + eKopf);                                               
+                jFußkr = cTeilkr - 2 * (aModul + eKopf);
                 nKpfkr = aModul * (bZaehne + 2);
                 tb_jFußkr.Text = jFußkr.ToString();
                 tb_nKpfkr.Text = nKpfkr.ToString();
@@ -78,7 +80,7 @@ namespace zahnrad
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
                 tb_kGrndkr.Text = kGrndkr.ToString();
             }
-            else if(radio_Innenzahnrad.IsChecked == true)
+            else if (radio_Innenzahnrad.IsChecked == true)
             {
                 aModul = Convert.ToDouble(tb_aModul.Text.ToString());
                 bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
@@ -86,61 +88,90 @@ namespace zahnrad
                 dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
 
 
-                eKopf = 0.167 * aModul;                                                                        
-                hPar = 2 * aModul + eKopf;                                                     
-                fFußhoehe = aModul + eKopf;                                                         
-                gKpfhoehe = aModul;                                                              
-                tb_eKopf.Text = eKopf.ToString();                                
+                eKopf = 0.167 * aModul;
+                hPar = 2 * aModul + eKopf;
+                fFußhoehe = aModul + eKopf;
+                gKpfhoehe = aModul;
+                tb_eKopf.Text = eKopf.ToString();
                 tb_fFußhoehe.Text = fFußhoehe.ToString();
                 tb_gKpfhoehe.Text = gKpfhoehe.ToString();
 
                 iTeil = Math.PI * aModul;
                 tb_iTeil.Text = iTeil.ToString();
-                jFußkr = cTeilkr + 2 * (aModul + eKopf);                                               
-                nKpfkr = aModul *(bZaehne - 2);
+                jFußkr = cTeilkr + 2 * (aModul + eKopf);
+                nKpfkr = aModul * (bZaehne - 2);
                 tb_jFußkr.Text = jFußkr.ToString();
                 tb_nKpfkr.Text = nKpfkr.ToString();
 
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
-              
+
                 tb_kGrndkr.Text = kGrndkr.ToString();
             }
-            
+            else if (Radio_Schrägverzahnt.IsChecked == true)
+            {
+                aModul = Convert.ToDouble(tb_aModul.Text.ToString());
+                bZaehne = Convert.ToDouble(tb_bZaehne.Text.ToString());
+                cTeilkr = Convert.ToDouble(tb_cTeilkr.Text.ToString());
+                dBreite = Convert.ToDouble(tb_dBreite.Text.ToString());
+                ßWinkel = Convert.ToDouble(tb_ßWinkel.Text.ToString());
 
+                eKopf = 0.167 * aModul;
+                hPar = 2 * aModul + eKopf;
+                fFußhoehe = aModul + eKopf;
+                gKpfhoehe = aModul;
+                tb_eKopf.Text = eKopf.ToString();
+                tb_fFußhoehe.Text = fFußhoehe.ToString();
+                tb_gKpfhoehe.Text = gKpfhoehe.ToString();
+
+                iTeil = Math.PI * aModul;
+                tb_iTeil.Text = iTeil.ToString();
+                jFußkr = cTeilkr + 2 * (aModul + eKopf);
+                nKpfkr = aModul * (bZaehne - 2);
+                tb_jFußkr.Text = jFußkr.ToString();
+                tb_nKpfkr.Text = nKpfkr.ToString();
+
+                kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
+
+                tb_kGrndkr.Text = kGrndkr.ToString();
+
+                mStirn = aModul / (Math.Cos(ßWinkel));
+                tb_mStirn.Text = mStirn.ToString();
+            }
         }
-
-        private void Radio_Geradzahnrad_Checked(object sender, RoutedEventArgs e)   
-        {   // JPEG Stirnzahnrad
+            private void Radio_Geradzahnrad_Checked(object sender, RoutedEventArgs e)   
+            {   // JPEG Stirnzahnrad
             Uri uri = new Uri(@"geradzahnrad.jpg", UriKind.Relative);
             image_kind.Source = new BitmapImage(uri);
-        }
+            }
 
-        private void Radio_Innenzahnrad_Checked(object sender, RoutedEventArgs e)
-        {   // JPEG Innenzanhrad
+            private void Radio_Innenzahnrad_Checked(object sender, RoutedEventArgs e)
+            {   // JPEG Innenzanhrad
             Uri uri = new Uri(@"innenzahnrad.jpg", UriKind.Relative);               
             image_kind.Source = new BitmapImage(uri);
  
-        }
+            }
+            private void Radio_Schrägverzahnt_Checked(object sender, RoutedEventArgs e)
+            {
+                Uri uri = new Uri(@"schrägverzahnt.jpg", UriKind.Relative);
+                image_kind.Source = new BitmapImage(uri);
+            }
 
-
-        private void Button_Click(object sender, RoutedEventArgs e)                 
-        {   // Ende btn
+            private void Button_Click(object sender, RoutedEventArgs e)                 
+            
+            {   // Ende btn
             this.Close();
-        }
+            }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            // Übertragung der Parameter an Catia
-        }
-        //Catia Part erstellen
+       
+        
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void btn_Catiastarten(object sender, RoutedEventArgs e)               //Catia Part erstellen
 
-        {
+            {
 
             CatiaControl();
 
-        }
+            }
 
 
 
@@ -214,11 +245,12 @@ namespace zahnrad
 
 
 
-                    cc.Stirnzahnrad(aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrundkr, nKpfkr)
+                    cc.Stirnzahnrad(aModul, bZaehne, ßWinkel);
+                   
 
 
-
-                    cc.();
+                   
+                    cc.Dicke(dBreite);
 
                 }
 
@@ -276,11 +308,8 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = false;
+            tb_ßWinkel.IsEnabled = false;
 
-            .IsEnabled = false;
-
-            .IsEnabled = false;
 
         }
 
@@ -290,11 +319,7 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = true;
-
-            .IsEnabled = true;
-
-            .IsEnabled = true;
+           tb_ßWinkel.IsEnabled = true;
 
         }
 
@@ -304,11 +329,7 @@ namespace zahnrad
 
         {
 
-            .IsEnabled = false;
-
-            .IsEnabled = false;
-
-            .IsEnabled = false;
+            tb_ßWinkel.IsEnabled = false;
 
         }
 
