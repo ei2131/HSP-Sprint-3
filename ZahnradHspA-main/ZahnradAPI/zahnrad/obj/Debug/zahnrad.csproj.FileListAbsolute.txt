@@ -40,3 +40,10 @@ C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\za
 C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csproj.CoreCompileInputs.cache
 C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.exe
 C:\Users\Patrik\Documents\GitHub\Zahnrad-Sprint-3\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.pdb
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.csprojAssemblyReference.cache
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\MainWindow.g.cs
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\App.g.cs
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.cache
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad_MarkupCompile.lref
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.exe
+C:\Users\Eike\Desktop\Zahnrad-Sprint-3-main\ZahnradHspA-main\ZahnradAPI\zahnrad\obj\Debug\zahnrad.pdb
