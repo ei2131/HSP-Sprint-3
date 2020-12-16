@@ -214,7 +214,7 @@ namespace zahnrad
 
 
 
-                    cc.Stirnzahnrad(aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrundkr, nKpfkr) ;
+                    cc.Stirnzahnrad(aModul, bZaehne, cTeilkr, dBreite, eKopf, hPar, fFußhoehe, gKpfhoehe, iTeil, jFußkr, kGrundkr, nKpfkr)
 
 
 
