@@ -168,7 +168,7 @@ namespace Zahnrad
 
 
 
-        public void Stirnzahnrad(double aModul, double bZaehne, double dBreite, double eKopf, double hPar, double fFußhoehe, double iTeil, double jFußkr, double kGrndkr, double nKpfkr;)
+        public void Stirnzahnrad(double aModul, double bZaehne, double dBreite, double eKopf, double hPar, double fFußhoehe, double iTeil, double jFußkr, double kGrndkr, double nKpfkr)
 
         {
 

@@ -168,7 +168,7 @@ namespace Zahnrad
 
 
 
-        public void Stirnzahnrad(double aModul, double bZaehne, double dBreite, double eKopf, double hPar, double fFußhoehe, double iTeil, double jFußkr, double kGrndkr, double nKpfkr);
+        public void Stirnzahnrad(double aModul, double bZaehne, double dBreite, double eKopf, double hPar, double fFußhoehe, double iTeil, double jFußkr, double kGrndkr, double nKpfkr)
 
         {
 
@@ -186,7 +186,7 @@ namespace Zahnrad
 
             //Hilfsgrößen
 
-            double Teilkreisradius = aMod*bZaehne / 2;
+            double Teilkreisradius = aModul*bZaehne / 2;
 
             double Hilfskreisradius = Teilkreisradius * 0.94;
 
