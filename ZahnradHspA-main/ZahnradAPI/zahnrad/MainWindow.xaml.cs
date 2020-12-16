@@ -161,7 +161,7 @@ namespace zahnrad
 
 
 
-                CatiaConnection cc = new CatiaConnection();
+                Zahnrad.CatiaConnection cc = new Zahnrad.CatiaConnection();
 
 
 
@@ -211,7 +211,7 @@ namespace zahnrad
 
 
 
-                    cc.Geradzahnrad(Zahnrad);
+                    cc.Zahnrad(Zahnrad);
 
 
 
