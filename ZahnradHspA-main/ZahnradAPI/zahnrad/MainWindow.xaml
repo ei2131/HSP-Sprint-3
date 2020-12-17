@@ -18,7 +18,6 @@
         <Label Content="b" Margin="32,119,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="18" FontWeight="Bold"/>
         <TextBox x:Name="tb_bZaehne" HorizontalAlignment="Left" Height="25" Margin="68,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
         <Label x:Name="lab_c" Content="c" Margin="32,246,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="18" FontWeight="Bold"/>
-        <TextBox x:Name="tb_cTeilkr" Margin="68,246,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" Width="121" Height="26" VerticalAlignment="Top"/>
         <Label x:Name="lab_d" Content="d" Margin="231,122,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="18" FontWeight="Bold"/>
         <TextBox x:Name="tb_dBreite" Margin="254,122,0,0" TextWrapping="Wrap" HorizontalAlignment="Left" Width="121" Height="26" VerticalAlignment="Top"/>
         <Label x:Name="lab_e" Content="e" Margin="241,346,0,0" HorizontalAlignment="Left" Width="19" Height="26" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -55,7 +54,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="549,493,0,-6" TextWrapping="Wrap" VerticalAlignment="Top" Width="142"><Run Text="© Zahnlos"/><Run Text=" GmbH"/><Run Text="  Co. KG"/></TextBlock>
         <Button x:Name="btn_Ende" Content="Ende" HorizontalAlignment="Left" Margin="549,370,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click" Background="#FFBFBEBE" FontWeight="Bold" FontSize="16" Height="40"/>
         <GroupBox Header="Eingabewerte" HorizontalAlignment="Left" Height="144" Margin="5,15,0,0" VerticalAlignment="Top" Width="408" FontWeight="Bold" FontSize="15"/>
-        <GroupBox Header="Ausgabewerte" HorizontalAlignment="Left" Height="301" Margin="5,202,0,0" VerticalAlignment="Top" Width="425" FontWeight="Bold" FontSize="15"/>
+        <GroupBox Header="Ausgabewerte" HorizontalAlignment="Left" Height="307" Margin="0,196,0,0" VerticalAlignment="Top" Width="442" FontWeight="Bold" FontSize="15"/>
         <Label Content="[mm]" HorizontalAlignment="Left" Margin="194,68,0,0" VerticalAlignment="Top"/>
         <Label Content="[mm]" HorizontalAlignment="Left" Margin="194,346,0,0" VerticalAlignment="Top"/>
         <Label Content="[mm]" HorizontalAlignment="Left" Margin="194,246,0,0" VerticalAlignment="Top"/>
@@ -70,12 +69,13 @@
         <TextBox x:Name="tb_ßWinkel" HorizontalAlignment="Left" Height="25" Margin="260,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
         <Label Content="[ ° ]" HorizontalAlignment="Left" Margin="370,67,0,0" VerticalAlignment="Top"/>
         <Label Content="[stk]" HorizontalAlignment="Left" Margin="197,122,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tb_mStirn" HorizontalAlignment="Left" Height="23" Margin="69,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="92,277,0,0" TextWrapping="Wrap" Text="Stirnmodul" VerticalAlignment="Top" Width="72" FontWeight="Bold"/>
         <Label Content="[mm]" HorizontalAlignment="Left" Margin="194,294,0,0" VerticalAlignment="Top"/>
         <Label Content="m" HorizontalAlignment="Left" Margin="31,297,0,0" VerticalAlignment="Top" Width="28" FontWeight="Bold"/>
         <RadioButton x:Name="radio_Schrägverzahnt" Content="Schrägverzahnt" HorizontalAlignment="Left" Margin="438,86,0,0" VerticalAlignment="Top" Width="110" Checked="Radio_Schrägverzahnt_Checked" FontWeight="Bold"/>
         <Button Content="Catia" HorizontalAlignment="Left" Margin="447,442,0,0" VerticalAlignment="Top" Width="85" Height="23" FontWeight="Bold" FontSize="14" Click="Button_Click_1"/>
+        <TextBox x:Name="tb_cTeilkr" HorizontalAlignment="Left" Height="23" Margin="68,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb_mStirn" HorizontalAlignment="Left" Height="23" Margin="68,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

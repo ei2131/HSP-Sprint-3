@@ -78,9 +78,18 @@ namespace zahnrad
                 nKpfkr = aModul * (bZaehne + 2);
                 tb_jFußkr.Text = jFußkr.ToString();
                 tb_nKpfkr.Text = nKpfkr.ToString();
-
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
                 tb_kGrndkr.Text = kGrndkr.ToString();
+
+                eKopf = Math.Round(eKopf, 2);
+                fFußhoehe = Math.Round(fFußhoehe, 2);
+                gKpfhoehe = Math.Round(gKpfhoehe, 2);
+                cTeilkr = Math.Round(cTeilkr, 2);
+                iTeil = Math.Round(iTeil, 2);
+                jFußkr = Math.Round(jFußkr, 2);
+                nKpfkr = Math.Round(nKpfkr, 2);
+                kGrndkr = Math.Round(kGrndkr, 2);
+
             }
             else if (radio_Innenzahnrad.IsChecked == true)
             {
@@ -109,6 +118,16 @@ namespace zahnrad
                 kGrndkr = aModul * bZaehne * Math.Cos(20 * Math.PI / 180);
 
                 tb_kGrndkr.Text = kGrndkr.ToString();
+
+                eKopf = Math.Round(eKopf, 2);
+                fFußhoehe = Math.Round(fFußhoehe, 2);
+                gKpfhoehe = Math.Round(gKpfhoehe, 2);
+                cTeilkr = Math.Round(cTeilkr, 2);
+                iTeil = Math.Round(iTeil, 2);
+                jFußkr = Math.Round(jFußkr, 2);
+                nKpfkr = Math.Round(nKpfkr, 2);
+                kGrndkr = Math.Round(kGrndkr, 2);
+
             }
             else if (radio_Schrägverzahnt.IsChecked == true)
             {
@@ -140,7 +159,20 @@ namespace zahnrad
 
                 mStirn = aModul / (Math.Cos(ßWinkel));
                 tb_mStirn.Text = mStirn.ToString();
+
+                eKopf = Math.Round(eKopf, 2);
+                fFußhoehe = Math.Round(fFußhoehe, 2);
+                gKpfhoehe = Math.Round(gKpfhoehe, 2);
+                cTeilkr = Math.Round(cTeilkr, 2);
+                iTeil = Math.Round(iTeil, 2);
+                jFußkr = Math.Round(jFußkr, 2);
+                nKpfkr = Math.Round(nKpfkr, 2);
+                kGrndkr = Math.Round(kGrndkr, 2);
+                mStirn = Math.Round(mStirn, 2);
+
+
             }
+
         }
             private void Radio_Geradzahnrad_Checked(object sender, RoutedEventArgs e)   
             {   // JPEG Stirnzahnrad
